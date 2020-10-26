@@ -1,7 +1,8 @@
 /*-----------------------------------------------------------------
-file name: midterm
+file name: COMP229-F2020-MidTerm-300992625
 Description: Web development midterm test
-Name: Kunwoo Yoon
+App:Book list
+Author: Kunwoo Yoon
 Student Id:300992625
 Date: Oct. 26.2020
 -----------------------------------------------------------------
@@ -114,11 +115,12 @@ $.fn.pageMe = function(opts){
 };
 
 // IIFE
+//redirect to booklist if a user click cancel button
 (function(){
   $(".btn-danger").click(function(event){
     if(!confirm("Are you sure?")) {
       event.preventDefault();
-      window.location.assign("/games");
+      window.location.assign("/books");
     }
   });
 
