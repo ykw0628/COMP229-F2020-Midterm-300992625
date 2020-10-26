@@ -1,3 +1,13 @@
+/*-----------------------------------------------------------------
+file name: midterm
+Description: Web development midterm test
+Name: Kunwoo Yoon
+Student Id:300992625
+Date: Oct. 26.2020
+-----------------------------------------------------------------
+*/
+
+
 /* custom JS goes here */
 
 /* pagination code from http://www.bootply.com/lxa0FF9yhw */
